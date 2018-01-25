@@ -9,6 +9,11 @@ body h1 {
   font-weight: bold;
   color: #f06c1f;
 }
+body div#conteneur {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 body header {
   display: flex;
   justify-content: flex-end;
