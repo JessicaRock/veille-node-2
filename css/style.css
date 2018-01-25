@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-flow: column;
-  background-color: orange;
+  background-color: #d4b3e5;
   margin: 0;
 }
 body h1 {
