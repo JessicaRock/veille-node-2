@@ -1,2 +1,4 @@
 git remote add origin https://github.com/JessicaRock/veille-node.git
 git push -u origin master
+
+git add
