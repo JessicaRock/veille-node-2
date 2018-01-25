@@ -7,10 +7,14 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href=""></a></li>
+				<li><a href="Accueil"></a></li>
 			</ul>
 		</nav>
 	</header>
+
+	<div div="conteneur">
+		<h1>Projet veille Node.js</h1>
+	</div>
 
 </body>
 </html>
