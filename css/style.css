@@ -1,18 +1,25 @@
 body {
   display: flex;
   flex-flow: column;
-  background-color: #f4ecf8;
+  align-content: center;
   margin: 0;
 }
 body h1 {
   font-family: 'Work Sans', sans-serif;
   font-weight: bold;
+  font-size: 45px;
   color: #f06c1f;
+}
+body p {
+  font-family: Open Sans;
 }
 body div#conteneur {
   display: flex;
   flex-flow: column;
   align-items: center;
+  background-color: #f4ecf8;
+  margin: 0 auto;
+  padding: 30px 80px;
 }
 body header {
   display: flex;
