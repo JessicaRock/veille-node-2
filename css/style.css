@@ -19,6 +19,7 @@ body div#conteneur {
   display: flex;
   flex-flow: column;
   align-items: center;
+  justify-content: center;
   flex-grow: 5;
   background-color: #f4ecf8;
   margin: 0 auto;
