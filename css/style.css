@@ -7,11 +7,12 @@ body {
 body h1 {
   font-family: Helvetica;
   font-weight: bold;
-  color: red;
+  color: #f06c1f;
 }
 body header {
   display: flex;
   justify-content: flex-end;
+  background-color: #630793;
 }
 body header nav {
   padding: 10px;
@@ -21,8 +22,11 @@ body header nav ul li {
   list-style-type: none;
   padding: 10px;
 }
+body header nav ul li a {
+  color: #f06c1f;
+}
 body footer {
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: #630793;
 }

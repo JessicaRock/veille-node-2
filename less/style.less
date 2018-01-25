@@ -12,12 +12,13 @@ body {
 	h1 {
 		font-family: Helvetica;
 		font-weight: bold;
-		color: red;
+		color: @orange;
 	}
 
 	header {
 		display: flex;
 		justify-content: flex-end;
+		background-color: @mauve;
 
 		nav {
 			padding: 10px;
@@ -26,6 +27,9 @@ body {
 				li {
 					list-style-type: none;
 					padding: 10px;
+					a {
+						color: @orange;
+					}
 				}
 			}
 		}
@@ -34,7 +38,7 @@ body {
 	footer {
 		display: flex;
 		justify-content: center;
-		background-color: red;
+		background-color: @mauve;
 	}
 
 }
