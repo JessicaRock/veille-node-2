@@ -1,4 +1,5 @@
 @mauve: #630793;
+@mauveFonce: #51067a;
 @lilas: #f4ecf8;
 @orange: #F06C1F;
 
@@ -32,8 +33,7 @@ body {
 		flex-grow: 5;
 		background-color: @lilas;
 		margin: 0 auto;
-		padding: 30px 80px;
-		padding-top: 70px;
+		padding: 70px 80px;
 	}
 
 	header {
@@ -52,10 +52,22 @@ body {
 					list-style-type: none;
 					padding: 20px;
 					padding-bottom: 5px;
+					transition: all 0.3s;
 					a {
 						color: @orange;
 						font-family: @openFont;
 						text-decoration: none;
+						transition: all 0.3s;
+					}
+
+					&:hover {
+						background-color: @mauveFonce;
+						padding-bottom: 20px;
+						padding-top: 10px;
+
+						a {
+							color: #FFF;
+						}
 					}
 				}
 			}
