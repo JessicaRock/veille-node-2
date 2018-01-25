@@ -4,3 +4,15 @@ body {
 body h1 {
   color: red;
 }
+body header {
+  display: flex;
+  justify-content: flex-end;
+}
+body header nav {
+  padding: 10px;
+  margin-right: 20px;
+}
+body header nav ul li {
+  list-style-type: none;
+  padding: 10px;
+}
