@@ -1,7 +1,11 @@
 body {
+  display: flex;
+  flex-flow: column;
   background-color: orange;
 }
 body h1 {
+  font-family: Helvetica;
+  font-weight: bold;
   color: red;
 }
 body header {
