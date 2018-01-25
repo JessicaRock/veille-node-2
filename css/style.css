@@ -3,6 +3,7 @@ body {
   flex-flow: column;
   align-content: center;
   margin: 0;
+  height: 100vh;
 }
 body h1 {
   font-family: 'Work Sans', sans-serif;
@@ -17,7 +18,7 @@ body div#conteneur {
   display: flex;
   flex-flow: column;
   align-items: center;
-  flex-grow: 3;
+  flex-grow: 5;
   background-color: #f4ecf8;
   margin: 0 auto;
   padding: 30px 80px;
