@@ -24,6 +24,7 @@ body header nav ul li {
 }
 body header nav ul li a {
   color: #f06c1f;
+  font-family: Open Sans;
 }
 body footer {
   display: flex;
