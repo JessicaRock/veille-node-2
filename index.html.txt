@@ -4,6 +4,13 @@
 	<title>Projet veille Node.js</title>
 </head>
 <body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href=""></a></li>
+			</ul>
+		</nav>
+	</header>
 
 </body>
 </html>
