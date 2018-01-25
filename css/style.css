@@ -45,9 +45,10 @@ body header nav ul li {
   transition: all 0.3s;
 }
 body header nav ul li a {
-  color: #f06c1f;
+  color: #FFF;
   font-family: Open Sans;
   text-decoration: none;
+  font-size: 17px;
   transition: all 0.3s;
 }
 body header nav ul li:hover {
@@ -56,7 +57,7 @@ body header nav ul li:hover {
   padding-top: 10px;
 }
 body header nav ul li:hover a {
-  color: #FFF;
+  color: #f06c1f;
 }
 body footer {
   display: flex;
