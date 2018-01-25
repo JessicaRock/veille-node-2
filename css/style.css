@@ -17,14 +17,16 @@ body div#conteneur {
   display: flex;
   flex-flow: column;
   align-items: center;
+  flex-grow: 3;
   background-color: #f4ecf8;
   margin: 0 auto;
   padding: 30px 80px;
 }
 body header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: #630793;
+  padding: 0 20px;
 }
 body header nav {
   padding: 10px;
