@@ -35,6 +35,9 @@ body div#conteneur div td {
   border-collapse: collapse;
   padding: 10px;
 }
+body div#conteneur div table {
+  max-width: 500px;
+}
 body div#conteneur div table tr th {
   font-family: Open Sans;
   color: #f06c1f;
