@@ -43,7 +43,8 @@ body div#conteneur div table tr td {
   font-family: Open Sans;
 }
 body div#conteneur div table tr td:nth-of-type(1) {
-  color: red;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 body header {
   display: flex;
