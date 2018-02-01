@@ -107,3 +107,18 @@ body footer {
 body footer p {
   color: #FFF;
 }
+@media screen and (max-width: 600px) {
+  body div#conteneur div table tr {
+    background-color: red;
+    flex-flow: column;
+  }
+  body div#conteneur div table tr td {
+    width: auto;
+  }
+  body div#conteneur div table tr td:nth-of-type(1) {
+    width: auto;
+  }
+  body div#conteneur div table tr th {
+    display: none;
+  }
+}

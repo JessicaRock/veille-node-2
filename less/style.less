@@ -133,3 +133,20 @@ body {
 	}
 
 }
+
+
+@media screen and (max-width: 600px) {
+	body div#conteneur div table tr {
+		background-color: red;
+		flex-flow: column;
+		td {
+			width: auto;
+		}
+		td:nth-of-type(1) {
+			width: auto;
+		}
+		th {
+			display: none;
+		}
+	}
+}
